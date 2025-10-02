@@ -135,7 +135,7 @@ footer{
         align-items: center;
         justify-content: center;
         color:white;
-        margin-left:10px;
+        width:50%;
         font-size:20px;
       }
   }
@@ -177,8 +177,11 @@ footer{
             font-weight: bold;
             font-size: 15px;
             line-break: anywhere;
-            color:rgb(0, 0, 0);
+            color:rgb(255, 255, 255);
             margin:42px 2px 15px 4px;
+        }
+        .card-left{
+          width:100%;
         }
     }
     .card-footer{
@@ -260,6 +263,33 @@ footer{
     
   }
 
+  .container-Bloco{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    
+    .Bloco{
+      margin-bottom: 40px;
+    }
+    .Bloco-img{
+      
+      img{
+        background-color: rgb(247, 87, 30);
+        padding: 10px;
+        width: 65px;
+        border-radius: 25px;
+      }
+    }
+    .Bloco-texto{
+      span{
+        
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+      }
+    }
+  }
 
   
 }
@@ -272,11 +302,11 @@ footer{
   .modal{
     background-color: rgba(0, 0, 0, 0.719);
     color: white;
-    position:absolute;
+    position:fixed;
     top:100px;
     transition: right 0.4s ease; 
     width:40%;
-    right: 0;
+    right: -500px;
     height:100vh;
 
     ul{
@@ -518,6 +548,39 @@ footer{
     display: flex;
     h1{
         font-size: 16px ;
+    }
+  }
+
+  .container-Bloco{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    
+    .Bloco{
+      width: 100%;
+      margin-bottom: 50px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .Bloco-img{
+      
+      img{
+        background-color: rgb(247, 87, 30);
+        padding: 10px;
+        width: 65px;
+        border-radius: 25px;
+      }
+    }
+    .Bloco-texto{
+      span{
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+      }
     }
   }
 }
@@ -779,6 +842,39 @@ footer{
     display: flex;
     h1{
         font-size: 16px ;
+    }
+  }
+
+  .container-Bloco{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    
+    .Bloco{
+      width: 100%;
+      margin-bottom: 50px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .Bloco-img{
+      
+      img{
+        background-color: rgb(247, 87, 30);
+        padding: 10px;
+        width: 65px;
+        border-radius: 25px;
+      }
+    }
+    .Bloco-texto{
+      span{
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+      }
     }
   }
 }
